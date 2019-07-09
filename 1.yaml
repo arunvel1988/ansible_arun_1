@@ -1,0 +1,9 @@
+---
+- hosts: arun
+  sudo: yes 
+  tasks:
+    - name: run arun nginx
+      apt: name=apache2
+
+
+
